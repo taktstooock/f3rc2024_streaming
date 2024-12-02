@@ -1,6 +1,6 @@
 {
-    "current_scene": "試合_青コートカメラ",
-    "current_program_scene": "試合_青コートカメラ",
+    "current_scene": "試合_赤コートカメラ",
+    "current_program_scene": "試合_赤コートカメラ",
     "scene_order": [
         {
             "name": "待機_サムネイル"
@@ -424,22 +424,22 @@
             "name": "リプレイ",
             "id": "obs_stinger_transition",
             "settings": {
-                "path": "C:/Users/nagura/GitHub/obs/f3rc2024/src/replay_transition.avi",
                 "transition_point": 1500,
-                "hw_decode": false
+                "hw_decode": false,
+                "path": "C:/Users/nagura/GitHub/obs/f3rc2024/src/replay_transition.webm"
             }
         },
         {
             "name": "F3トランジション",
             "id": "obs_stinger_transition",
             "settings": {
-                "path": "C:/Users/nagura/GitHub/obs/f3rc2024/src/f3rc_transition.avi",
-                "transition_point": 1500
+                "transition_point": 1500,
+                "path": "C:/Users/nagura/GitHub/obs/f3rc2024/src/f3rc_transition.webm"
             }
         }
     ],
     "saved_projectors": [],
-    "current_transition": "フェード",
+    "current_transition": "F3トランジション",
     "transition_duration": 1500,
     "preview_locked": false,
     "scaling_enabled": false,
