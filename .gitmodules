@@ -1,0 +1,3 @@
+[submodule "src/f3rc2024_display"]
+	path = src/f3rc2024_display
+	url = https://github.com/Koki-Kubota2727/f3rc2024_display
