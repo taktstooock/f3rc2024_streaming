@@ -1,2 +1,0 @@
-src/f3rc_transition.avi filter=lfs diff=lfs merge=lfs -text
-src/replay_transition.avi filter=lfs diff=lfs merge=lfs -text
